@@ -1,0 +1,130 @@
+* {
+    font-family: 'Century Gothic';
+}
+
+body {
+    background-color: whitesmoke;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1, h2 {
+    font-family: 'Garamond';
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+header {
+    display: flex;
+}
+
+header > div {
+    flex: 1;
+}
+
+header img {
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.badge {
+    display: inline-block;
+    color: whitesmoke;
+    background-color: red;
+    padding: 0.25rem;
+    font-size: small;
+    border-radius: 0.25rem;
+    vertical-align: 0.35rem;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    border-radius: 1rem;
+    justify-content: stretch;
+    background-color: black;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.container li {
+    list-style-type: none;
+    flex: 1;
+}
+
+.container a {
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.container a:hover {
+    color: black;
+    background-color: lightgray;
+    border-radius: 1rem;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+p + ul {
+    list-style: none;
+    text-align: left;
+}
+
+section {
+    display: flex;
+    margin-top: 1rem;
+}
+
+article {
+    flex: 1;
+    text-align: center;
+    background-color: moccasin;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 1rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    border: solid 2px;
+}
+
+article img {
+    max-width: 100%;
+    min-width: 100%;
+    border-radius: 1rem;
+}
+
+footer {
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+footer div {
+    flex: 1;
+    text-justify: wrap;
+}
+
+footer img {
+    margin-left: 1.5rem;
+}
+
+footer p {
+    text-align: right;
+    padding-right: 1.5rem;
+}
